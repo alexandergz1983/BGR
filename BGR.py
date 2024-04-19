@@ -128,7 +128,7 @@ for i in range(2, df_lcbs.shape[1], 2):
     # This means that if the absolute difference between the total lengths before and after certain reference points is less than 10% of the sum of these lengths, 
     # the entity is considered symmetrical; otherwise, it is considered asymmetrical.
     
-    threshold = 0.1  # Umbral del 10%
+    threshold = 0.1  # threshold 10%
     def determine_balance(row):
         difference = abs(row['total_length_before_oriC'] - row['total_length_after_terC'])
         total_length_sum = row['total_length_before_oriC'] + row['total_length_after_terC']
