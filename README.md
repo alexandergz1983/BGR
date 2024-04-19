@@ -7,5 +7,5 @@ The script produces an output CSV file with the classification of LCBs and genom
 
 use:
 python BGR.py --infile_lcbs africa.lcbs.
-the script will request:
+The script will request:
 TerC(ej: 685460), OriC(ej:1556620), Size genome(1643831) 
